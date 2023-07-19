@@ -1,7 +1,7 @@
 #!/system/bin/sh
 TAG=install-kernelsu-manager.sh
 
-VERSION=11041
+VERSION=11089
 log -t $TAG "Version to install: $VERSION"
 
 INSTALLED_VERSION=$(dumpsys package me.weishu.kernelsu | sed -n 's/.*versionCode=\([[:digit:]]*\).*/\1/p')
